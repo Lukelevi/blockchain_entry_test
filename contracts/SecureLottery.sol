@@ -8,21 +8,23 @@ pragma solidity ^0.8.18;
  */
 contract SecureLottery {
     
+    address public entries; // Will store my players tickets here
     address public owner;
     uint256 public lotteryId;
     uint256 public lotteryStartTime;
     bool public isPaused;
+    uint256 public constant MIN_VALUE = 0.1;
     // How will you store player information?
     address[] public playerInformation;
+    //Track user amount
     mapping(address => uint256) public userAmount;
 
     //Track entries
     address[] public playerEntries;
 
-    // How will you track entries?
-    // struct {
-    //     uint256[] public placeholderForNow;
-    // }
+    //Track unique players
+    mapping(address => bool) private hasEntry;
+    uint256 public uniquePlayers; 
     
     constructor() {
         owner = msg.sender;
@@ -38,13 +40,12 @@ contract SecureLottery {
     // - Allow multiple entries per player
     // - Emit event with player address and entry count
     function enter() public payable {
-        for (player = 0; player < playerInformation.length(); i++) {    
-            if player.amount 
+        require(msg.value >= MIN_ENTRY, "A minimum of 0.1 ETH is required")
+
+        for (uint256 i = 0; i < playerEntries; i++) {
+            playerEntries.push(msg.value)
         }
-        // Your implementation here
-        // Validation: Check minimum entry amount
-        // Validation: Check if lottery is active
-    }
+        userAmount[msg.sender] += msg.value
     
     // TODO: Implement winner selection function
     // Requirements:
