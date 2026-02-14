@@ -12,12 +12,17 @@ contract SecureLottery {
     uint256 public lotteryId;
     uint256 public lotteryStartTime;
     bool public isPaused;
-    
-    // TODO: Define additional state variables
-    // Consider:
-    // - How will you track entries?
-    // - How will you store player information?
-    // - What data structure for managing the pot?
+    // How will you store player information?
+    address[] public playerInformation;
+    mapping(address => uint256) public userAmount;
+
+    //Track entries
+    address[] public playerEntries;
+
+    // How will you track entries?
+    // struct {
+    //     uint256[] public placeholderForNow;
+    // }
     
     constructor() {
         owner = msg.sender;
@@ -33,6 +38,9 @@ contract SecureLottery {
     // - Allow multiple entries per player
     // - Emit event with player address and entry count
     function enter() public payable {
+        for (player = 0; player < playerInformation.length(); i++) {    
+            if player.amount 
+        }
         // Your implementation here
         // Validation: Check minimum entry amount
         // Validation: Check if lottery is active

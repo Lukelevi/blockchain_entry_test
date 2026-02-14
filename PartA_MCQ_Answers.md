@@ -29,8 +29,7 @@
 - **C)** Use ERC-721 exclusively, store all data off-chain for gas savings, and require buyers to use MetaMask with manual price negotiations.  
 - **D)** Build everything as separate NFT collections with no DEX integration since farmers won't understand DeFi protocols.  
 
-**Your Answer:** [A/B/C/D]  
-- B
+**Your Answer:** [B]  
 
 **Your Reasoning:**  
 [2–3 sentences explaining why you chose this answer. What makes it the best choice?]  
@@ -55,8 +54,7 @@ A farmer wants to list 50 bags of maize. Gas costs are:
 - **C)** They cost exactly the same  
 - **D)** ERC-1155 is cheaper by approximately $54  
 
-**Your Answer:** [A/B/C/D]  
-- A
+**Your Answer:** [D]  
 
 **Your Calculation/Reasoning:**  
 - ERC-721 cost = 50 * 100,000 => 5,000,000 * 20 => 100,000,000 / 3000 == 333.33
@@ -78,8 +76,7 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 - **C)** "Because smart contracts are more secure than databases and Web3 is decentralised."  
 - **D)** "Blockchain uses cryptography which makes it unhackable, unlike normal databases."  
 
-**Your Answer:** [A/B/C/D]  
-- B
+**Your Answer:** [B]  
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
@@ -92,9 +89,9 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 
 **Scenario:** A DeFi protocol experiences the following sequence of events:
 
-- A liquidity provider adds 10 ETH and 20,000 USDC to an AMM pool (constant product formula: x × y = k)  
+- A liquidity provider adds 10 ETH and 20,000 USDC to an AMM pool (constant product formula: x × y = k)  2000 USDC == 1 ETH
 - A trader swaps 2 ETH for USDC (no fees for simplicity)  
-- The protocol's governance token holders vote on implementing impermanent loss protection  
+- The protocol's governance token holders vote on implementing impermanent loss protection 
 - An NFT marketplace integrates with the DEX to enable ERC-1155 token swaps  
 
 ---
@@ -108,11 +105,12 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 - **C)** The liquidity provider experiences impermanent loss because the pool maintains a constant product rather than constant ratio. ERC-721 would be more suitable than ERC-1155 for the NFT marketplace since individual NFTs require unique transactions.  
 - **D)** The constant product formula prevents any impermanent loss by automatically rebalancing. DAOs cannot implement financial protections due to smart contract immutability. ERC-1155 tokens are incompatible with standard DEX protocols.  
 
-**Your Answer:** [A/B/C/D]  
+**Your Answer:** [B]  
 
 **Your Reasoning:**  
 
 - **AMM Mathematics:** How do you calculate the swap output? What happens to the liquidity provider's value?  
+    - 
 - **DeFi Governance:** What is impermanent loss and how does protection work?  
 - **Token Standards:** Why might ERC-1155 be preferred over ERC-721 for marketplace integration?  
 

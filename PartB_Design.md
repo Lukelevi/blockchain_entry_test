@@ -14,7 +14,11 @@
 - How did you structure your state variables in `SkillsMarketplace` vs `SecureLottery`?
 - What trade-offs did you consider for storage efficiency?
 
-[Write your response here]
+[1. `Mapping`: When we need to map (key-value) a user to their Private key or some important value of some sort.
+`Array`: Make use of this data structure to pop/remove unconfirmed transactions to a transactions `array` before being confirmed via consensus and then added to a block `array`
+
+ 2. 
+]
 
 ---
 
