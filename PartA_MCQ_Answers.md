@@ -61,11 +61,11 @@ A farmer wants to list 50 bags of maize. Gas costs are:
 **Your Calculation/Reasoning:**  
 - ERC-721 cost = 50 * 100,000 => 5,000,000 * 20 => 100,000,000 / 3000 == 333.33
 - ERC-1155 cost = 150,000 + (49 * 5000) == 150,000 + 254,000 => 404,000 / 3000 == 134,67
-- Difference = 333.33 - 134,67 == 
+- Difference = 333.33 - 134,67 == 198.66
 
 [Explain why gas optimisation matters for African users]  
 
-- As Africans we are at a disadvantaged 
+- As Africans, we are at a disadvantaged with regards to tech infrastructure and GDP per capita. Reducing costs enables Africans to easily adopt Blockhain technology without the need to pay high fees for services offered through the blockchain network.
 
 ### Question 3: Value Proposition Explanation (Communication & Thinking)
 
@@ -79,9 +79,12 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 - **D)** "Blockchain uses cryptography which makes it unhackable, unlike normal databases."  
 
 **Your Answer:** [A/B/C/D]  
+- B
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
+
+- Africa is a corruption-stricken continent. From rigged votes to misused state funds, its time for transparency, integrity, immutability, and security. Blockchain brings ownership and power to the people instead of one, potentially corrupt, organisation such as a Government, having to control and misuse state resourses without providing transparency.
 
 ---
 
