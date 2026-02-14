@@ -60,7 +60,6 @@ contract SecureLottery {
     // - Require at least 3 unique players
     // - Require lottery has been active for 24 hours
     function selectWinner() public {
-        
         // Your implementation here
         // CHALLENGE: How do you generate randomness securely?
         // Consider: blockhash, block.difficulty, etc.

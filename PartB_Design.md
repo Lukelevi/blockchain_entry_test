@@ -18,6 +18,8 @@
 `Array`: Make use of this data structure to pop/remove unconfirmed transactions to a transactions `array` before being confirmed via consensus and then added to a block `array`
 
  2. 
+
+ 3. 
 ]
 
 ---
@@ -61,7 +63,8 @@
 - Storage cost implications.
 - Potential bottlenecks in `selectWinner` or `applyForGig`.
 
-[Write your response here]
+[My research managed to cover Layer 2 dilemma which involves Rollups which are bundled transactions stored off-chain, proof is then posted on-chain. 
+- I also managed to Cold storage devise i.e. IPFS, Filecoin, and Arweave and hot storage which is connected to the internet. Layer 2 dilema is finding a balance between Scalability, Security, and Decentralizaton]
 
 ---
 
@@ -72,7 +75,9 @@
 - MetaMask alternatives?
 - Mobile accessibility?
 
-[Write about your UX(user experience) considerations]
+[-UX/UI designers need to make easy to navigate and hide the complexity from users.
+- Metamask alternatives include mobile apps (dApps)
+- Make use of exchanges like Crypto.com]
 
 ---
 
@@ -85,7 +90,10 @@
 - Tutorials followed
 - Community resources
 
-[List 3-5 resources you used]
+[The resources used include:
+- Alchemy University
+- Learn X and Y
+- Alchemy ]
 
 ---
 
@@ -96,7 +104,10 @@
 - How you solved it
 - What you learned
 
-[Write down your challenges]
+[ - Grasping the syntaxt fully. I think I needed more and more practice.
+- Making sense out of the whole code logic before making changes. Written the code I understood
+- Everything code logic requires security practices as well as its static approach. I figured that Solidity is combination of both Python and Java.
+]
 
 ---
 
@@ -107,6 +118,9 @@
 - Testing frameworks
 - Frontend integration
 
-[Write your future learning goals]
+[- Static typing like Java
+- N/A
+- This involves dAPPs (Decentralized web app) with a custom frontend and a smart-contract backend
+]
 
 ---
