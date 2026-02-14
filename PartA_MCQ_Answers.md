@@ -30,10 +30,12 @@
 - **D)** Build everything as separate NFT collections with no DEX integration since farmers won't understand DeFi protocols.  
 
 **Your Answer:** [A/B/C/D]  
+- B
 
 **Your Reasoning:**  
 [2–3 sentences explaining why you chose this answer. What makes it the best choice?]  
 
+It follows Blockchain basic transaction flow. The produce items are, in a way broadcasted to a network (allowing every participant access to purchase items). The reputations are kept on-chain thus allowing transparency since they are mapped in the market place to be accessed/viwed publicly. Lastly, it makes use of Decentralized Exchanges, thus cutting the middleman.
 ---
 
 ### Question 2: Cost Optimisation (Practical Aptitude)
@@ -54,16 +56,16 @@ A farmer wants to list 50 bags of maize. Gas costs are:
 - **D)** ERC-1155 is cheaper by approximately $54  
 
 **Your Answer:** [A/B/C/D]  
+- A
 
 **Your Calculation/Reasoning:**  
-- ERC-721 cost = [Show calculation]
-- ERC-1155 cost = [Show calculation]
-- Difference = [Show calculation]
-
+- ERC-721 cost = 50 * 100,000 => 5,000,000 * 20 => 100,000,000 / 3000 == 333.33
+- ERC-1155 cost = 150,000 + (49 * 5000) == 150,000 + 254,000 => 404,000 / 3000 == 134,67
+- Difference = 333.33 - 134,67 == 
 
 [Explain why gas optimisation matters for African users]  
 
----
+- As Africans we are at a disadvantaged 
 
 ### Question 3: Value Proposition Explanation (Communication & Thinking)
 
