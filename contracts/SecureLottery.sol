@@ -43,9 +43,13 @@ contract SecureLottery {
         require(msg.value >= MIN_ENTRY, "A minimum of 0.1 ETH is required")
 
         for (uint256 i = 0; i < playerEntries; i++) {
-            playerEntries.push(msg.value)
+            entries.push(msg.value)
+            uint256 numberOfEntries = msg.value / MIN_ENTRY;
+            require(numberOfEntries > 0, "Insufficient ETH");
         }
         userAmount[msg.sender] += msg.value
+
+        
     
     // TODO: Implement winner selection function
     // Requirements:
@@ -56,6 +60,7 @@ contract SecureLottery {
     // - Require at least 3 unique players
     // - Require lottery has been active for 24 hours
     function selectWinner() public {
+        
         // Your implementation here
         // CHALLENGE: How do you generate randomness securely?
         // Consider: blockhash, block.difficulty, etc.
